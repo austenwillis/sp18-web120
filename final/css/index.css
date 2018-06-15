@@ -1,0 +1,490 @@
+body{
+   background-image:url(../images/background2.jpg);
+    background-attachment:fixed;
+font-family: sans-serif;} 
+
+img{width:100%;}
+
+fieldset{color:white;}
+
+.music{padding:1%;}
+
+h1{color:rgba(255, 0, 0, 0.6);
+padding:3%;}
+
+.list li a{
+    display: block;
+    color:white;
+   
+    text-decoration: none;
+    font-size:200%;
+
+}
+label{color:white;padding-top:3%;}
+
+h2{color:rgba(255, 0, 0, 0.6);
+padding-left:10%;}
+
+td{color:white;}
+
+
+#redlogo img{width:100%;}
+
+.album{padding:2%;}
+
+legend{font-size:140%}
+
+form{width:60%;
+padding:5%;}
+
+table{margin-left:5%;}
+
+textarea{width:100%;
+padding-top:3%;}
+
+#social li{list-style-type:none;float:left;width:15%;}
+#social .fab{color:white;font-size:400%;}
+
+
+
+
+
+
+
+#wrapper{
+    width:100%;
+    margin:0 auto;
+    background:rgba(0,0,0,0.70);
+    overflow:hidden;
+
+}
+
+
+header{
+    width:100%;
+    margin:0 auto; 
+    background:rgba(0,0,0,0.0);
+    padding-top:2%;  
+
+    padding-bottom:1%;  
+    border:none;
+ }
+
+
+nav{width:100%;
+}
+
+#nav_ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:rgba(0,0,0,0.0);
+    width:100%;
+    margin: 0 auto;
+    height:100%;
+   
+}
+
+
+
+
+
+nav li{float:left;
+    width:20%;
+    list-style:none;
+    text-align:center;
+}
+
+nav li a {
+    display: block;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size:140%;
+
+}
+
+
+nav li a:hover {
+    color:rgba(255, 0, 0, 0.6);
+    
+}
+
+
+
+
+p{
+color:white;
+padding:35px;
+font-size:135%;}
+
+
+
+footer{
+   margin:0 auto;
+    width:80%;
+padding-top: 20px;
+    background:rgba(0,0,0,0.70);
+     height:70%;
+    
+}
+footer ul{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    width:100%;
+    margin: 0 auto;
+    height:70%;
+    font-size:1em;
+    
+    
+}
+footer li{
+ float:left;
+    width:16%;
+    list-style:none;
+    text-align:center;
+    color:white;
+    
+}
+footer a{ display: block;
+     color:white;
+    text-align: center;
+    text-decoration: none;
+    
+
+    }
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+    
+    
+#social li{list-style-type:none;float:left;width:33%;}
+
+
+    
+#kelsie{width:80%;
+   padding-left:10%;
+     padding-right:10%;
+    padding-top:2%;
+    padding-bottom:1%;}
+
+#wrapper{
+    width:100%;
+    margin:0 auto;
+    background:rgba(0,0,0,0.70);
+    overflow:hidden;}
+
+
+header{
+    width:100%;
+    margin:0 auto; 
+    background:rgba(0,0,0,0.0);
+    padding-bottom:1%;  
+    border:none;
+ }
+
+nav{width:100%;
+    margin:0 auto; 
+    background:rgba(0,0,0,0.70);}
+
+
+
+#nav_ul {
+    list-style-type: none;
+    display:none;
+    flex-direction: column;
+    position: absolute;
+    margin-top:20%; 
+    overflow: hidden;
+    background:rgba(0,0,0,0.95);
+    width:96.99%;
+    height:100%;
+    
+   
+}
+
+
+#redlogo{display:none;}
+  
+nav li{float:left;
+    width:100%;
+    list-style:none;
+    text-align:center;
+    height:20%;
+    
+}
+
+nav li a {
+    display: block;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size:300%;
+
+}
+
+nav li a:hover {
+    color:rgba(255, 0, 0, 0.6);
+    
+}
+
+
+
+
+p{
+color:white;
+
+font-size:135%;}
+
+main  {width: 100%;
+
+}
+
+aside {width:100%;}
+
+
+
+footer{
+   margin:0 auto;
+    width:100%;
+
+    color:white;
+}
+footer ul{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    width:100%;
+    margin: 0 auto;
+    height:100%;
+    font-size:1em;
+    
+    
+}
+footer li{
+ float:left;
+    width:16%;
+    list-style:none;
+    text-align:center;
+    padding-top:5%;
+}
+footer a{ display: block;
+     color:white;
+    text-align: center;
+    text-decoration: none;
+    
+
+    }
+#toggle{float:right;
+          font-size:300%;
+            color:white;
+            padding:10px;
+        }
+#logo{float:left;
+   width:110px;
+        color:white;
+        text-decoration:none;
+       
+
+        }
+#logoimage{width:100%;     
+
+ }
+ 
+    
+
+}
+@media all and (min-width:1400px) {
+#wrapper{
+    width:80%;
+    margin:0 auto;
+   
+    overflow:hidden;
+    
+  
+    } 
+
+    
+header{width:80%;}
+
+
+    
+main {
+  float: left;
+  width: 50%;
+overflow:hidden;
+ 
+
+
+}
+aside {
+  float: right;
+  width:30%;
+  overflow:hidden;
+padding:5%;
+  
+}
+nav{width:100%;}
+
+#nav_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width:100%;
+    margin: 0 auto;
+    height:100%;
+   
+}
+
+nav li{float:left;
+    width:20%;
+    list-style:none;
+    text-align:center;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size:2em;
+
+}
+
+
+nav li a:hover {
+  color:rgba(255, 0, 0, 0.6);
+}
+    p{
+color:white;
+padding:50px;
+font-size:115%;}
+    
+#toggle, #logo{
+        display:none;
+    }
+ 
+
+
+}
+
+@media all and (min-width:768px) and (max-width:1399px) {
+
+    
+#kelsie{width:60%;
+   padding-left:20%;
+    padding-top:2%;
+    padding-bottom:1%;}
+
+    
+#social{padding-left:31.5%;}
+#social li{list-style-type:none;float:left;width:25%;}
+
+    #wrapper{
+    width:80%;
+    margin:0 auto;
+    background:rgba(0,0,0,0.70);
+    overflow: hidden;
+    
+  } 
+main {
+width:100%;
+   
+}
+
+aside {width:100%;}
+header{width:100%;}
+
+
+nav{width:80%;
+    margin:0 auto;}
+
+#nav_ul {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background:rgba(0,0,0,0.0);
+    width:100%;
+    margin: 0 auto;
+    height:100%;}
+
+nav li{float:left;
+    width:20%;
+    list-style:none;
+    text-align:center;
+}
+
+nav li a {
+    display: block;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size:160%;
+
+}
+
+
+nav li a:hover {
+    color:rgba(255, 0, 0, 0.6);
+
+}
+    
+p{
+color:white;
+font-size:125%;}
+
+ #toggle, #logo{
+        display:none;
+    }
+
+footer{
+   margin:0 auto;
+    width:80%;
+
+    color:white;
+}
+footer ul{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    width:100%;
+    margin: 0 auto;
+    height:100%;
+    font-size:1em;
+    
+    
+}
+footer li{
+ float:left;
+    width:16%;
+    list-style:none;
+    text-align:center;
+    padding-top:5%;
+}
+footer a{ display: block;
+     color:white;
+    text-align: center;
+    text-decoration: none;
+    
+
+    }
+
+#redlogo img{width:100%;}
+
+}
+
+
+
+
+
